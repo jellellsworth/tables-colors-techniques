@@ -1,0 +1,108 @@
+* {
+    font-family: oswald;
+    margin: auto;
+    font-weight: normal;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    margin: 2%;
+}
+
+header, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+table, th, tr, td{
+    border: 1px solid;
+    font-weight: bold;
+    padding: 5px
+}
+
+.textTable {
+    margin-top: 2%;
+}
+
+.noBold {
+    font-weight: normal;
+}
+
+
+.preDefined {
+    background-color: red;
+}
+
+.definedOpacity {
+    background-color: red;
+    opacity: 0.5;
+}
+
+.hex {
+    background-color: #f60909;
+}
+
+.hexAlpha {
+    background-color: #f6090990;
+}
+
+.rgb {
+    background-color: rgb(255, 0, 0);
+}
+
+.rgbA {
+    background-color: rgba(255, 0, 0, 0.75);
+}
+
+.hsl {
+    background-color: hsl(0, 100%, 50%);
+}
+
+.hslA {
+    background-color: hsla(0, 100%, 60%, 0.75);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.textAlign {
+    text-align: center;
+}
+
+.fontStyle {
+    font-style: italic;
+}
+
+.letterSpacing {
+    letter-spacing: 5px;
+}
+
+.wordSpacing {
+    word-spacing: 2em;
+}
+
+.lineHeight {
+    line-height: 2;
+}
+
+.fontFamily {
+    font-family: Serif;
+}
