@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors & Fonts</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Oswald font from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Colors & Font Techniques</h1>
+        <p>Below are two table the first showcasing different ways to use colors and the second showcasing different fonts</p>
+    </header>
+
+    <main>
+        <div class="colorTable">
+            <h2>Colors</h2>
+            <table>
+                <tr>
+                    <th>Color</th>
+                    <th>Type of Color</th>
+                </tr>
+                <tr>
+                    <td class="preDefined"></td>
+                    <td>Using pre defined color; red</td>
+                </tr>
+                 <tr>
+                    <td class="definedOpacity"></td>
+                    <td>Pre-defined with opacity property; opacity: 0.5</td>
+                </tr>
+                <tr>
+                    <td class="hex"></td>
+                    <td>Using Hex Color (6 digits); #f60909 Red</td>
+                </tr>
+                <tr>
+                    <td class="hexAlpha"></td>
+                    <td>Hex Color with Alpha; #f6090990 red with 70% opacity</td>
+                </tr>
+                <tr>
+                    <td class="rgb"></td>
+                    <td>Using RGB Color; rgb(255, 0, 0) All Red</td>
+                </tr>
+                <tr>
+                    <td class="rgbA"></td>
+                    <td>RGB Apha; rgba(255, 0, 0, 0.75)</td>
+                </tr>
+                <tr>
+                    <td class="hsl"></td>
+                    <td>Using hue, saturation, light; hsl(0, 100%, 50%)</td>
+                </tr>
+                <tr>
+                    <td class="hslA"></td>
+                    <td>Hue, saturation, light, and alpha; hsla(0, 100%, 60%, 0.75);</td>
+                </tr>
+            </table>
+        </div>
+        <div class="textTable">
+            <h2>Text Styles</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Text</th>
+                        <th>CSS Application</th>
+
+                        <th>Text</th>
+                        <th>CSS Application</th>
+                    <tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="uppercase">Text Transform Uppercase</td>
+                        <td class="noBold">Makes text uppercase or lowercase w/no HTML</td>
+
+                        <td class="lowercase">Text Transform Lowercase</td>
+                        <td class="noBold">Makes text uppercase or lowercase w/no HTML</td>
+                    <tr>
+                        <td class="textAlign">Text Align</td>
+                        <td class="noBold">Text is center aligned but can also be left, right, or center</td>
+
+                        <td class="fontStyle">Font Style</td>
+                        <td class="noBold">Way to italicize font</td>
+                    <tr>
+                        <td class="letterSpacing">Letter Spacing</td>
+                        <td class="noBold">Adds spacing between letters this one is 5px can also be em</td>
+
+                        <td class="wordSpacing">Word Spacing</td>
+                        <td class="noBold">Adds spacing between words this one is 2em can also be px</td>
+                    </tr>
+                    <tr>
+                        <td class="lineHeight">Line <br> Height</td>
+                        <td class="noBold">Adds space in between the lines of text; it's unitless & based on font size</td>
+
+                        <td class="fontFamily">Fonts</td>
+                        <td class="noBold">Using Font Family; changed this to a Serif</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
